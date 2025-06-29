@@ -1,0 +1,322 @@
+body {
+  position: relative;
+  z-index: 100;
+}
+.cloud-img {
+  width: 20vw;
+  position: absolute;
+  left: 0vw;
+  top: -3vw;
+  animation-name: cloud_effect;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.cloud-img:nth-child(2) {
+  animation-name: cloud_effect2;
+  animation-timing-function: linear;
+  animation-duration: 13s;
+}
+.cloud-img:nth-child(3) {
+  animation-name: cloud_effect;
+  animation-timing-function: linear;
+  animation-duration: 30s;
+  animation-delay: 7s;
+}
+@keyframes cloud_effect {
+  from {
+    transform: translateX(0vw) scale(1.2);
+  }
+  to {
+    transform: translateX(100vw) scale(1.2);
+  }
+}
+@keyframes cloud_effect2 {
+  from {
+    transform: translateX(0vw) scale(0.7);
+  }
+  to {
+    transform: translateX(100vw) scale(0.7);
+  }
+}
+.raindrop-img1 {
+  width: 1vw;
+  position: absolute;
+  left: 2vw;
+  top: -30vw;
+  animation-name: rain_drop_effect;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+.raindrop-img1:nth-child(2) {
+  left: 3vw;
+  animation-delay: 1s;
+}
+.raindrop-img1:nth-child(3) {
+  left: 4vw;
+  animation-delay: 1.5s;
+}
+.raindrop-img1:nth-child(4) {
+  left: 10vw;
+  animation-delay: 1s;
+}
+.raindrop-img1:nth-child(5) {
+  left: 15vw;
+  animation-delay: 0.5s;
+}
+.raindrop-img1:nth-child(6) {
+  left: 20vw;
+  animation-delay: 1.5s;
+}
+.raindrop-img1:nth-child(7) {
+  left: 25vw;
+  animation-delay: 0.5s;
+}
+.raindrop-img1:nth-child(8) {
+  left: 30vw;
+  animation-delay: 1s;
+}
+.raindrop-img1:nth-child(9) {
+  left: 35vw;
+  animation-delay: 0.5s;
+}
+.raindrop-img1:nth-child(10) {
+  left: 40vw;
+  animation-delay: 1.5s;
+}
+.raindrop-img1:nth-child(11) {
+  left: 45vw;
+  animation-delay: 0.6s;
+}
+.raindrop-img1:nth-child(12) {
+  left: 50vw;
+  animation-delay: 0s;
+}
+.raindrop-img1:nth-child(13) {
+  left: 55vw;
+  animation-delay: 1s;
+}
+.raindrop-img1:nth-child(14) {
+  left: 60vw;
+  animation-delay: 0s;
+  animation-duration: 1.2s;
+}
+.raindrop-img1:nth-child(15) {
+  left: 65vw;
+  animation-delay: 0s;
+}
+.raindrop-img1:nth-child(16) {
+  left: 70vw;
+  animation-duration: 1.2s;
+}
+
+.raindrop-img1:nth-child(17) {
+  left: 73vw;
+  animation-duration: 1.5s;
+}
+.raindrop-img1:nth-child(18) {
+  left: 78vw;
+  animation-duration: 1.2s;
+}
+.raindrop-img1:nth-child(19) {
+  left: 85vw;
+  animation-duration: 1.7s;
+}
+.raindrop-img1:nth-child(20) {
+  left: 95vw;
+  animation-duration: 1.7s;
+}
+@keyframes rain_drop_effect {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+.sky-div {
+  background-color: rgba(2, 195, 243, 0.516);
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40vh;
+}
+.grass-div {
+  background-color: rgba(6, 189, 94, 0.989);
+  position: absolute;
+  width: 100vw;
+  top: 40vh;
+  left: 0;
+  right: 0;
+  height: 25vh;
+}
+.tree1-img {
+  position: absolute;
+  height: 25vh;
+  left: 0vw;
+  top: 0vh;
+}
+.tree2-img {
+  position: absolute;
+  height: 25vh;
+  left: 50vw;
+  top: -2vh;
+  transform: scale(1.2);
+}
+.tree3-img {
+  position: absolute;
+  height: 25vh;
+  left: 87vw;
+  top: 1vh;
+  transform: scale(1.2);
+}
+.board-img {
+  position: absolute;
+  height: 25vh;
+  left: 30vw;
+  top: 3vh;
+}
+.flower-1-img {
+  position: absolute;
+  height: 20vh;
+  left: 0vw;
+  top: 5vh;
+}
+.flower-2-img {
+  position: absolute;
+  height: 20vh;
+  left: 20vw;
+  top: 5vh;
+}
+.flower-3-img {
+  position: absolute;
+  height: 20vh;
+  left: 40vw;
+  top: 5vh;
+}
+.flower-4-img {
+  position: absolute;
+  height: 20vh;
+  left: 60vw;
+  top: 5vh;
+}
+.flower-5-img {
+  position: absolute;
+  height: 20vh;
+  left: 70vw;
+  top: 5vh;
+}
+.road-backside-div {
+  background-color: rgba(128, 128, 128, 0.699);
+  position: absolute;
+  width: 100vw;
+  top: 65vh;
+  left: 0;
+  right: 0;
+  height: 35vh;
+}
+.road-div {
+  background-color: rgba(128, 128, 128, 0.699);
+  position: absolute;
+  width: 100vw;
+  top: 66vh;
+  left: 0;
+  right: 0;
+  bottom: 3vh;
+  height: 32vh;
+  position: relative;
+}
+.lines-div {
+  border-bottom: 3px dashed white;
+  padding: 7vh;
+  width: 100vw;
+}
+.biker-1-img {
+  width: 10vw;
+  position: absolute;
+  top: 2vw;
+  transform: rotateY(180deg);
+  color: back;
+  animation-name: bike1_movement;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+.biker-2-img {
+  width: 10vw;
+  position: absolute;
+  top: -1vw;
+  color: back;
+  animation-name: bike2_movement;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-delay: 3s;
+}
+.biker-3-img {
+  width: 10vw;
+  position: absolute;
+  top: -3vw;
+  transform: rotateY(180deg);
+  color: back;
+  animation-name: bike2_movement;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+.biker-4-img {
+  width: 10vw;
+  position: absolute;
+  top: 6vw;
+  transform: rotateY(180deg);
+  color: back;
+  animation-name: bike1_movement;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+}
+.biker-5-img {
+  width: 10vw;
+  position: absolute;
+  top: 4vw;
+  transform: rotateY(180deg);
+  color: back;
+  animation-name: bike1_movement;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+}
+/*
+by like below we can make keyframes with both from and to keywords
+with properties like duration,animation-delay, iteration-count, timing-function(ease,ease-in,ease-out,linear(uniform-speed)),fill-mode(forwards,backwards,both)
+forwards - means it will 
+*/
+@keyframes bike1_movement {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(0vw);
+  }
+}
+@keyframes bike2_movement {
+  from {
+    transform: translateX(0vw);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
